@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: #F8F8F8
+}
+
+body {
+    color: #3A5DB9;
+    font-size: 100%;
+}
+
+.titulo_nome {
+    color: #1F346B;
+    font-size: 32px;
+    font-family: Newsreader;
+    font-weight: 500;
+    line-height: 32px;
+    word-wrap: break-word
+}
+
+.titulo {
+    color: #0E0E0E;
+    font-family: Martian Mono;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.categoria {
+    color: #0E0E0E;
+    font: size 32px;
+    font-family: 'Martian Mono', monospace;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    gap: 32px;
+}
+
+.cabecalho2 {
+
+    display: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.projetos {
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: right;
+    align-items: center;
+    justify-content: space-around;
+}
