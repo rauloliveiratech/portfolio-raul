@@ -1,38 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background: #F8F8F8
+    background: #f8f8f8;
 }
-
 body {
-    color: #3A5DB9;
+    color: #3a5db9;
     font-size: 100%;
 }
 
 .titulo_nome {
-    color: #1F346B;
+    color: #1f346b;
     font-size: 32px;
     font-family: Newsreader;
     font-weight: 500;
     line-height: 32px;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 
 .titulo {
-    color: #0E0E0E;
+    color: #0e0e0e;
     font-family: Martian Mono;
     font-weight: 600;
     font-size: 45px;
 }
 
 .categoria {
-    color: #0E0E0E;
+    color: #0e0e0e;
     font: size 32px;
-    font-family: 'Martian Mono', monospace;
+    font-family: "Martian Mono", monospace;
 }
 
 .cabecalho {
@@ -45,7 +44,6 @@ body {
 }
 
 .cabecalho2 {
-
     display: flex-start;
     flex-direction: row;
     align-items: center;
