@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Projeto de HTML CSS">
     <title>Projeto_html_css</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -15,33 +15,49 @@
 
         <nav class="cabecalho">
             <h1 class="titulo_nome">rauloliveiratech</h1>
-            <a class="categoria">Texto1</a>
-            <a class="categoria">Texto2</a>
-            <a class="categoria">Texto3</a>
-            <a class="categoria">Texto4</a>
-            <a class="categoria">Texto5</a>
+            <a class="categoria" href="#projetos" title="Projetos"><img
+                    src="https://cdn-icons-png.flaticon.com/512/1087/1087815.png" title="Projetos" alt="ProjetosLogo"
+                    width="15">Projetos</a>
+
+            <a class="categoria" href="#sobre_mim"><img src="https://cdn-icons-png.flaticon.com/128/7542/7542177.png" alt="Sobremim.png"
+                    width="15">Sobre mim</a>
+            <a class="categoria" href="https://github.com/rauloliveiratech" title="Github" target="_blank"
+                alt="Github"><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="LinkedinLogo"
+                    width="15">Github</a>
+            <a class="categoria" href="https://www.linkedin.com/in/rauloliveiratech/" title="Linkedin"
+                target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"
+                    alt="LinkedinLogo" width="15">LinkedIn</a>
+            <a class="contato" href="#contato">Contato</a>
         </nav>
 
     </header>
     <main>
-        <div class="cabecalho2">
-            <nav>
-                <h1 class="titulo">Projetos</h1>
-            </nav>
+        <nav class="cabecalho2" id="projetos">
+            <h2 class="titulo">Projetos</h2>
+
             <div class="projetos">
                 <a href="https://github.com/rauloliveiratech/Gerador_de_Senhas" target="_blank">
-                    <img class="img_projetos" alt="gerador_de_senhas.png" title="gerador_de_senhas.png"
-                        src="assets/imgs/gerador_de_senhas.png"></a>
+                    <img class="img_projetos" width="250" height="250" src="assets/imgs/gerador_de_senhas.png"
+                        title="gerador_de_senhas.png" alt="gerador_de_senhas.png">
+                    <p class="itens">Clique para Visitar</p>
+                </a>
                 <a href="https://github.com/rauloliveiratech/PreencheTermo" target="_blank">
-                    <img class="img_projetos" alt="preenche_termo.png" title="preenche_termo.png"
-                        src="assets/imgs/preenche_termo.png"></a>
-
+                    <img class="img_projetos" width="250" height="250" src="assets/imgs/preenche_termo.png"
+                        title="preenche_termo.png" alt="preenche_termo.png">
+                    <p class="itens">Clique para Visitar</p>
+                </a>
             </div>
+        </nav>
+        <div class="cabecalho3" id="sobre_mim">
+            <h2 class="titulo">Sobre Mim</h2>
         </div>
     </main>
 
     <footer>
-
+        <div>
+            <h2 class="titulo" id="contato" >Contato</h2>
+        </div>
+        
     </footer>
 </body>
 

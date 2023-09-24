@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&family=Oswald&display=swap");
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    background: #f8f8f8;
+    background: #f1f1f1;
 }
+
 body {
-    color: #3a5db9;
     font-size: 100%;
 }
 
@@ -23,9 +24,24 @@ body {
 
 .titulo {
     color: #0e0e0e;
-    font-family: Martian Mono;
-    font-weight: 600;
+    font-family: "Martian Mono", monospace;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
     font-size: 45px;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.contato {
+    color: #f1f1f1;
+    font: size 32px;
+    font-family: "Martian Mono", monospace;
+    display: inline-flex;
+    padding: 13.5px 31px 13.5px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #1f346b;
 }
 
 .categoria {
@@ -36,26 +52,33 @@ body {
 
 .cabecalho {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 24px;
-    gap: 32px;
-}
-
-.cabecalho2 {
-    display: flex-start;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 24px;
+    gap: 25px;
+    position: fixed;
+    width: 100%;
 }
 
 .projetos {
+    gap: 25px;
+    border-radius: 30px;
+    border: 2px solid #1f346b;
+    background: #fafaf5;
     margin: 20px;
     padding: 30px;
     display: flex;
-    flex-direction: right;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.itens {
+    display: flex-end;
+    padding-left: 9%;
+    color: #2d49ff;
+    font: size 18px;
+    font-family: "Martian Mono", monospace;
 }
