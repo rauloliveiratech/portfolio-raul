@@ -1,64 +1,152 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>Portfólio Raul</title>
+  </head>
+  <body>
+    <div class="background">
+      <header>
+        <div class="cabeçalho-link">
+          <div class="buttons">
+            <li>
+              <a href="#Home">Home</a>
+            </li>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projeto de HTML CSS">
-    <title>Projeto_html_css</title>
-    <link href="style.css" rel="stylesheet">
-</head>
+            <li>
+              <a href="#Sobre">Sobre Mim</a>
+            </li>
 
-<body>
-    <header>
+            <li>
+              <a href="#Tecnologias">Tecnologias</a>
+            </li>
 
-        <nav class="cabecalho">
-            <h1 class="titulo_nome">rauloliveiratech</h1>
-            <a class="categoria" href="#projetos" title="Projetos"><img
-                    src="https://cdn-icons-png.flaticon.com/512/1087/1087815.png" title="Projetos" alt="ProjetosLogo"
-                    width="15">Projetos</a>
+            <!-- <li>
+              <a href="#Projetos">Projetos</a>
+            </li> -->
+          </div>
+          <a href="#Contato"><button>Meu Contato</button></a>
+        </div>
 
-            <a class="categoria" href="#sobre_mim"><img src="https://cdn-icons-png.flaticon.com/128/7542/7542177.png" alt="Sobremim.png"
-                    width="15">Sobre mim</a>
-            <a class="categoria" href="https://github.com/rauloliveiratech" title="Github" target="_blank"
-                alt="Github"><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="LinkedinLogo"
-                    width="15">Github</a>
-            <a class="categoria" href="https://www.linkedin.com/in/rauloliveiratech/" title="Linkedin"
-                target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"
-                    alt="LinkedinLogo" width="15">LinkedIn</a>
-            <a class="contato" href="#contato">Contato</a>
-        </nav>
+        <!--cabeçalho-link-->
+      </header>
 
-    </header>
-    <main>
-        <nav class="cabecalho2" id="projetos">
-            <h2 class="titulo">Projetos</h2>
+      <div id="Home" class="container-text">
+        <div class="text">
+          <h3>Prazer pessoal,</h3>
+          <h1 style="padding-top: 0;">Eu sou <span>Raul</span></h1>
+          <p>
+            Tenho uma abordagem centrada em soluções e priorizo uma relação
+            "ganha-ganha" em minhas atitudes.<br />
+            Adoro estar no mesmo ambiente de trabalho com pessoas curiosas,
+            antenadas e abertas a novas ideias.<br />
+            Procurando me aprimorar como pessoa e DEV. Mais informações no meu
+            Linkedin.<br />
+          </p>
+        </div>
+        <!--text-->
 
-            <div class="projetos">
-                <a href="https://github.com/rauloliveiratech/Gerador_de_Senhas" target="_blank">
-                    <img class="img_projetos" width="250" height="250" src="assets/imgs/gerador_de_senhas.png"
-                        title="gerador_de_senhas.png" alt="gerador_de_senhas.png">
-                    <p class="itens">Clique para Visitar</p>
-                </a>
-                <a href="https://github.com/rauloliveiratech/PreencheTermo" target="_blank">
-                    <img class="img_projetos" width="250" height="250" src="assets/imgs/preenche_termo.png"
-                        title="preenche_termo.png" alt="preenche_termo.png">
-                    <p class="itens">Clique para Visitar</p>
-                </a>
+        <div id="Sobre" class="sobremim">
+          <div class="text">
+            <h1>Sobre mim</h1>
+            <p>
+              Formado no curso técnico de Informática da FIEB, adquiri
+              conhecimentos de programação e manutenção, o que elevou meu
+              interesse na área do TI.<br />
+              Atuando desde cedo na área de TI, obtive experiência em
+              atendimento por sistema de chamados e exercendo suporte tanto em
+              Hardware quanto em Software.<br />
+              Sempre fui apaixonado por desenvolvimento e hoje em dia busco me
+              aprimorar como Desenvolvedor.<br />
+              Atualmente, estou cursando ADS e exercitando minhas competências !
+            </p>
+          </div>
+        </div>
+
+        <div id="Tecnologias" class="tecnologias">
+          <div class="text">
+            <h1>Tecnologias</h1>
+            <div class="icones">
+              <img
+                width="45px"
+                alt="python icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+              />
+              <img
+                width="45px"
+                alt="html icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              />
+              <img
+                width="45px"
+                alt="css icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              />
+              <img
+                width="45px"
+                alt="sql icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+              />
+              <img
+                width="45px"
+                alt="git icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              />
+              <img
+                width="45px"
+                alt="JS icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              />
+              <img
+                width="45px"
+                alt="Figma icon"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+              />
             </div>
-        </nav>
-        <div class="cabecalho3" id="sobre_mim">
-            <h2 class="titulo">Sobre Mim</h2>
+          </div>
         </div>
-    </main>
 
-    <footer>
-        <div>
-            <h2 class="titulo" id="contato" >Contato</h2>
+        <div class="Contato" id="Contatos">
+          <div class="text">
+            <h1>Meus contatos</h1>
+            <!--redes-social-->
+            <div class="redes-social">
+              <a
+                href="https://www.linkedin.com/in/rauloliveiratech/"
+                target="_blank"
+                ><img
+                  width="30px"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                  alt="logo linkedin"
+              /></a>
+              <a href="https://github.com/rauloliveiratech" target="_blank"
+                ><img
+                  width="30px"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt="logo github"
+              /></a>
+            </div>
+          </div>
         </div>
-        
-    </footer>
-</body>
+        <!-- contato -->
+      </div>
+      <!-- /background -->
 
+      <!--container-text-->
+    </div>
+    <!--background-->
+
+    <script src="script.js"></script>
+  </body>
 </html>
