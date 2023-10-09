@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     const typed = new Typed("span", {
-        strings: ["Web Developer.", "Front-end Developer.", "Raul Oliveira.",],
+        strings: [,"Web Developer.", "Front-end Developer.", "Raul Oliveira."],
         typeSpeed: 70,
         backSpeed: 60,
         loop: true
