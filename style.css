@@ -219,7 +219,7 @@ button {
         gap: 1rem; /* Reduza o espaço entre os itens em telas menores */
     }
     .apresentacao{
-        min-height: 11.5rem!important;
+        min-height: 11rem!important;
     }
 
     .buttons {
