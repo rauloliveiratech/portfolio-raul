@@ -170,7 +170,9 @@ button:hover {
     color: #fff;
     padding-bottom: 1rem;
 }
-
+.tecnologias {
+    min-height: 15rem;
+}
 .tecnologias,
 .contato,
 .paragrafo,
@@ -256,6 +258,9 @@ button {
     }
     .apresentacao {
         min-height: 11rem !important;
+    }
+    .tecnologias {
+        height: 17rem;
     }
 
     .buttons {
