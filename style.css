@@ -152,7 +152,7 @@ button:hover {
 }
 .tecnologias,
 .contato,
-.paragrafo,
+.container-sobremim,
 .redes-social {
     margin-top: 3rem;
     background-color: #0000005d;
@@ -160,9 +160,12 @@ button:hover {
     border-radius: 30px;
     padding: 25px;
 }
-
 .text span {
     color: #ffcc00;
+}
+.paragrafo{
+    max-width: 40rem;
+    
 }
 
 .text p {
