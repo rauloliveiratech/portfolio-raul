@@ -175,6 +175,8 @@ button:hover {
     color: #fff;
     padding-bottom: 1rem;
 }
+
+
 .tecnologias {
     min-height: 15rem;
     max-height: fit-content;
@@ -266,6 +268,10 @@ button:hover {
     .apresentacao {
         min-height: 11rem !important;
     }
+    .text .apresentacao h3{
+        margin-top: 5rem;
+    }
+
     .tecnologias {
         min-height: 17rem;
         height: auto;
