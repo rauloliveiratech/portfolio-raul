@@ -247,14 +247,19 @@ button:hover {
 
     .cabeçalho-link {
         display: flex;
-        flex-direction: column;
-        align-items: space-between;
-        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
         gap: 1rem; /* Reduza o espaço entre os itens em telas menores */
         margin: 10px;
         padding: 10px;
     }
     .cabeçalho-link li a{
+        display: flex;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
         margin-top: 1rem;
         display: flex;
     }
