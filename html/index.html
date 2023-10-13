@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/contato.css" rel="stylesheet" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
       rel="stylesheet"
@@ -13,6 +14,8 @@
       referrerpolicy="no-referrer"
     />
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="../js/script.js"></script>
+
     <title>Portfólio Raul</title>
   </head>
   <body>
@@ -127,11 +130,11 @@
             </div>
 
             <div class="contato" id="Contatos">
-              <div class="text" align="center">
-                <h1>Meus contatos</h1>
-                <!--redes-social-->
-                <div class="redes-social">
+              <h1 align="center">Meus contatos</h1>
+              <div class="container-contatos" align="center">
+                <div class="items-contatos">
                   <a
+                    class="btn-linkedin"
                     href="https://www.linkedin.com/in/rauloliveiratech/"
                     target="_blank"
                     ><img
@@ -139,29 +142,44 @@
                       alt="logo linkedin"
                       width="30px"
                   /></a>
-                  <a href="https://github.com/rauloliveiratech" target="_blank"
+                  <a
+                    class="btn-github"
+                    href="https://github.com/rauloliveiratech"
+                    target="_blank"
                     ><img
                       src="/assets/imgs/github.png"
                       alt="logo github"
                       width="30px"
                   /></a>
+                  <a
+                    class="btn-gmail"
+                    href="mailto:rauloliveiratech@gmail.com"
+                    target="_blank"
+                    ><img
+                      src="/assets/imgs/gmail.png"
+                      alt="logo gmail"
+                      width="30px"
+                  /></a>
+                  <a
+                    class="btn-instagram"
+                    href="https://www.instagram.com/raul.oliveirazx"
+                    target="_blank"
+                    ><img
+                      src="/assets/imgs/instagram.png"
+                      alt="logo instagram"
+                      width="30px"
+                  /></a>
                 </div>
-                <div class="container-downloadcv">
-                  <div class="btn-cv">
-                    <a href="docs/Curriculo Raul.pdf" download
-                      ><button>Download CV</button></a
-                    >
-                  </div>
+                <div class="container-cv">
+                  <button href="docs/Curriculo Raul.pdf" download>
+                    Download CV
+                  </button>
                 </div>
               </div>
             </div>
-            <!-- contato -->
           </div>
-          <!-- /background -->
         </div>
-        <!--container-text-->
       </div>
-      <!--background-->
 
       <script src="script.js"></script>
     </div>

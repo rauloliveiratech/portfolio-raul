@@ -55,7 +55,6 @@ header {
 
 .icones {
     padding: 10px;
-    height: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -64,12 +63,14 @@ header {
 }
 
 .icones img {
-    transition: transform 0.5s;
+    transition: 0.5s;
     transform: scale(1);
+    opacity: 80%;
 }
 
 .icones img:hover {
     transform: scale(1.5);
+    opacity: 100%;
 }
 
 .buttons {
@@ -120,12 +121,14 @@ button {
     font-size: 12px;
     cursor: pointer;
     width: 150px;
+    transition: .35s;
 }
 
 button:hover:before {
     background-color: #ffcc00;
     color: #fff;
     transform: scale(0.8);
+    
 }
 button:hover {
     transform: scale(1.2);
@@ -157,11 +160,12 @@ button:hover {
 }
 .tecnologias {
     min-height: 15rem;
+    max-height: fit-content;
 }
+
 .tecnologias,
 .contato,
-.container-sobremim,
-.redes-social {
+.container-sobremim {
     margin-top: 3rem;
     background-color: #0000005d;
     box-shadow: 0px 0px 2px 0px #ffcc00;
@@ -173,7 +177,6 @@ button:hover {
 }
 .paragrafo{
     max-width: 40rem;
-    
 }
 
 .text p {
@@ -183,42 +186,10 @@ button:hover {
     font-size: 12px;
 }
 
-.redes-social a,
-.buttons li,
-.icones,
-button {
-    transition: all 0.35s;
-    transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
-}
-
-.redes-social {
-    scale: 1.2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    width: 8rem;
-    height: 3.5rem;
-    margin-top: 1rem;
-}
-
 .apresentacao {
     display: block;
 }
 
-.redes-social a {
-    scale: 1.2;
-    border-radius: 30px;
-    box-shadow: 0px 0px 5px 0px #ffcc00;
-    display: flex;
-    justify-content: center;
-    color: #ffcc00;
-    transform: scale(0.8);
-}
-
-.redes-social a:hover {
-    transform: scale(1.1);
-}
 
 /* Estilos para telas maiores (a partir de 601px) */
 @media screen and (min-width: 601px) {
@@ -248,7 +219,8 @@ button {
         min-height: 11rem !important;
     }
     .tecnologias {
-        height: 17rem;
+        min-height: 17rem;
+        height: auto;
     }
 
     .buttons {

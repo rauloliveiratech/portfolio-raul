@@ -1,0 +1,45 @@
+
+.container-contatos .items-contatos {
+    /* background-color: #fff6773a; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    min-height: 50px;
+    max-width: 400px;
+}
+
+.container-contatos .items-contatos a:hover{
+    transform: scale(1.2);
+    opacity: 100%;
+}
+
+.container-contatos .items-contatos a {
+    background-color: rgba(240, 248, 255, 0.192);
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .35s;
+    opacity: 50%;
+}
+.container-contatos .items-contatos .btn-linkedin:hover {
+    background-color: #0077B5;
+}
+.container-contatos .items-contatos .btn-github:hover {
+    background-color: #333;
+}
+.container-contatos .items-contatos .btn-gmail:hover {
+    background-color: #DC4A38;
+}
+.container-contatos .items-contatos .btn-instagram:hover {
+    background-color: #dc3869;
+}
+
+.container-cv{
+    max-width: 250px;
+    padding: 25px;
+}
