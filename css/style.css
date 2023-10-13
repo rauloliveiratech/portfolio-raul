@@ -58,10 +58,13 @@ header {
     display: flex;
     gap: 6rem;
     opacity: 30%;
+    transition: .35s;
+
 }
 
 .cabeçalho-link:hover{
     opacity: 100%;
+    
 }
 
 
@@ -189,6 +192,10 @@ button:hover {
     max-width: 25rem;
 }
 
+
+
+
+.projetos,
 .tecnologias,
 .contato,
 .container-sobremim {
