@@ -1,0 +1,12 @@
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff52;
+    margin: 2px;
+    font-size: 14px;
+}
