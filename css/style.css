@@ -207,7 +207,7 @@ button:hover {
 .tecnologias,
 .contato,
 .container-sobremim {
-    margin-top: 3rem;
+    width: 60rem;
     background-color: #0000005d;
     box-shadow: 0px 0px 2px 0px #ffcc00;
     border-radius: 30px;
@@ -234,8 +234,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     width: 180rem;
-    margin: 3rem;
-    height: 45rem;
+    height: 30rem;
 }
 
 .section-sobremim,
@@ -270,6 +269,12 @@ button:hover {
         max-width: 22rem;
         margin: 5px;
         background-color: #ffffff00;
+        margin-bottom: 18rem;
+    }
+
+    .container-sobremim{
+        max-width: 22rem;
+        padding-bottom: 50px;
     }
 
     .paragrafo {
@@ -305,6 +310,7 @@ button:hover {
     }
     .apresentacao {
         min-height: 11rem !important;
+        margin-bottom: 10rem!important;
     }
     .text .apresentacao h3{
         margin-top: 7rem;
