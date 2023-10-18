@@ -182,16 +182,22 @@ button:hover {
     max-height: fit-content;
 }
 
+
 .container-paragrafo{
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .paragrafo{
     display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     flex-wrap: wrap;
-    width: auto;
-    max-width: 25rem;
+    height: 20rem;
+    width: 40rem;
 }
 
 
@@ -223,11 +229,28 @@ button:hover {
 }
 
 
-@media screen and (min-width: 1600px) {
-.container-paragrafo{
-    width: 50rem;
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180rem;
+    margin: 3rem;
+    height: 45rem;
 }
+
+.section-sobremim,
+.section-tecnologias{
+    background-color: none;
+
 }
+
+.section-projetos,
+.section-contatos{
+    background-color: none;
+}
+
+
+
 
 /* Estilos para telas maiores (a partir de 601px) */
 @media screen and (min-width: 601px) {
@@ -235,12 +258,27 @@ button:hover {
         max-height: 100px; /* Defina a altura máxima do cabeçalho em telas maiores */
         padding-top: 0; /* Remova o padding superior em telas maiores */
     }
+
 }
 
 /* Estilos para telas menores (até 600px) */
 @media screen and (max-width: 600px) {
     header {
         max-height: none; /* Remova a altura máxima em telas menores */
+    }
+    .section{
+        max-width: 22rem;
+        margin: 5px;
+        background-color: #ffffff00;
+    }
+
+    .paragrafo {
+        max-width: 20rem;
+    }
+
+    .container-paragrafo{
+        padding-bottom: 50px;
+        min-height: 32rem;
     }
 
     .container-text {
