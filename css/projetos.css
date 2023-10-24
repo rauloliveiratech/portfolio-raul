@@ -50,7 +50,6 @@
 }
 
 .container-projetos li .botton-bar:hover{
-    transform: scale(1.2);
     opacity: 100%;
 }
 
