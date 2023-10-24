@@ -208,7 +208,7 @@ button:hover {
     text-align: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 20rem;
+    min-height: 10rem;
     width: 40rem;
 }
 
@@ -288,6 +288,12 @@ button:hover {
         max-width: 22rem;
         padding-bottom: 50px;
     }
+    .apresentacao {
+        max-width: 22rem;
+        max-height: 10rem;
+
+    }
+
 
     .paragrafo {
         max-width: 20rem;
@@ -295,7 +301,7 @@ button:hover {
 
     .container-paragrafo{
         padding-bottom: 50px;
-        min-height: 32rem;
+        min-height: 16rem;
     }
 
     .container-text {
