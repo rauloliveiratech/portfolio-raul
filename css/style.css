@@ -260,7 +260,9 @@ button:hover {
     background-color: none;
 }
 
-
+.section-apresentacao {
+    height: 45rem;
+}
 
 
 /* Estilos para telas maiores (a partir de 601px) */
@@ -277,6 +279,9 @@ button:hover {
     header {
         max-height: none; /* Remova a altura máxima em telas menores */
     }
+    .section-apresentacao {
+    height: 20rem;
+}
     .section{
         max-width: 22rem;
         margin: 5px;
